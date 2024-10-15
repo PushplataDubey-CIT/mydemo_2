@@ -6,8 +6,8 @@ class Student_Details {
     String phone;
 
     // Method to set student details
-    void setDetails(String usn, String name, String branch, String phone) {
-        this.usn = usn;
+    void setDetails(String student_usn, String name, String branch, String phone) {
+        this.usn = student_usn;
         this.name = name;
         this.branch = branch;
         this.phone = phone;
